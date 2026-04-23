@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Metz Bikes Through The Day</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="layout">
+      <section class="hero">
+        <p class="eyebrow">Metz Bike Monitoring</p>
+        <h1>Bike Availability by Station</h1>
+        <p class="subcopy">
+          Click multiple stations on the map to compare bike availability through the day.
+        </p>
+      </section>
+
+      <p id="meta" class="meta"></p>
+
+      <div class="content-grid">
+        <section class="panel map-panel">
+          <div id="stationMap" class="station-map" aria-label="Bike stations map"></div>
+        </section>
+
+        <section class="panel chart-panel">
+          <h2 id="stationTitle" class="station-title">Select one or more stations on the map</h2>
+          <canvas id="stationChart" aria-label="Bike availability chart" role="img"></canvas>
+          <p id="status" class="status"></p>
+        </section>
+      </div>
+
+      <section class="panel heatmap-panel">
+        <h2 class="station-title">Station Snapshot Heatmap</h2>
+        <p class="status">Y axis: stations, X axis: snapshot time, color: number of bikes available.</p>
+        <div class="heatmap-legend">
+          <span>Low</span>
+          <div class="heatmap-gradient" aria-hidden="true"></div>
+          <span>High</span>
+        </div>
+        <div class="heatmap-wrapper">
+          <canvas id="heatmapCanvas" aria-label="Bike availability heatmap" role="img"></canvas>
+        </div>
+        <p id="heatmapStatus" class="status">Hover a cell to inspect a station and snapshot value.</p>
+      </section>
+
+      <section class="panel snapshot-panel">
+        <h2 class="station-title">Snapshot Availability Map</h2>
+        <p class="status">Use the time slider to color each station marker by bike count at the nearest snapshot.</p>
+        <div class="snapshot-controls">
+          <label for="snapshotSlider" class="snapshot-label">Time</label>
+          <input id="snapshotSlider" type="range" min="0" max="0" step="1" value="0" />
+          <p id="snapshotTimeLabel" class="status">Snapshot time: --:--</p>
+        </div>
+        <div class="heatmap-legend">
+          <span>Low</span>
+          <div class="heatmap-gradient" aria-hidden="true"></div>
+          <span>High</span>
+        </div>
+        <div id="snapshotMap" class="snapshot-map" aria-label="Bike availability map by snapshot"></div>
+        <p id="snapshotStatus" class="status">Move the slider to update marker colors.</p>
+      </section>
+    </main>
+  </body>
+</html>

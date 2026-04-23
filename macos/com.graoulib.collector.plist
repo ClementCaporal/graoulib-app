@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.graoulib.collector</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/ccaporal/.local/bin/uv</string>
+		<string>run</string>
+		<string>python</string>
+		<string>scripts/collect_snapshot.py</string>
+	</array>
+	<key>WorkingDirectory</key>
+	<string>/Users/ccaporal/Documents/graoulib-app</string>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/Users/ccaporal/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+	</dict>
+	<key>StartInterval</key>
+	<integer>600</integer>
+	<key>StandardOutPath</key>
+	<string>/Users/ccaporal/Library/Logs/graoulib-collector.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/ccaporal/Library/Logs/graoulib-collector-error.log</string>
+	<key>KeepAlive</key>
+	<false/>
+</dict>
+</plist>

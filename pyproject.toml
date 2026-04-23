@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graoulib-app"
+version = "0.1.0"
+description = "Collect and plot Metz bike station availability"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[dependency-groups]
+dev = [
+	"pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

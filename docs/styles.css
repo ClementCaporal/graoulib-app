@@ -1,0 +1,240 @@
+:root {
+  --bg: #f6f2e8;
+  --bg-accent: #e8dcc8;
+  --text: #1d252f;
+  --muted: #506072;
+  --card: #fffdf8;
+  --line: #d1c5b2;
+  --highlight: #0c7f6f;
+  --highlight-soft: #9fe4cf;
+  --point: #156f64;
+  --point-selected: #ff7a18;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at 10% 0%, var(--bg-accent) 0%, transparent 45%),
+    radial-gradient(circle at 90% 100%, #d5eadf 0%, transparent 40%),
+    var(--bg);
+}
+
+.layout {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.25rem 1.1rem 3rem;
+}
+
+.hero h1 {
+  margin: 0.2rem 0 0.6rem;
+  font-size: clamp(2rem, 4.7vw, 3rem);
+  line-height: 1.06;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  color: var(--highlight);
+  font-weight: 700;
+}
+
+.subcopy {
+  margin: 0;
+  max-width: 58ch;
+  color: var(--muted);
+}
+
+.meta {
+  margin: 1.2rem 0 0.8rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 12px 26px rgba(29, 37, 47, 0.06);
+}
+
+.map-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.station-map {
+  width: 100%;
+  flex: 1;
+  min-height: 480px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.station-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.chart-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 480px;
+  max-height: 600px;
+}
+
+.station-title {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+#stationChart {
+  flex: 1;
+  width: 100%;
+  max-height: 520px;
+}
+
+.heatmap-panel {
+  margin-top: 1.2rem;
+}
+
+.snapshot-panel {
+  margin-top: 1.2rem;
+}
+
+.snapshot-controls {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.7rem;
+}
+
+.snapshot-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+#snapshotSlider {
+  width: 100%;
+}
+
+.snapshot-map {
+  width: 100%;
+  min-height: 460px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.65rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.heatmap-gradient {
+  width: 220px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: linear-gradient(
+    90deg,
+    #440154 0%,
+    #3b528b 25%,
+    #21918c 50%,
+    #5ec962 75%,
+    #fde725 100%
+  );
+}
+
+.heatmap-wrapper {
+  width: 100%;
+  max-height: 560px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fbf8f2;
+}
+
+#heatmapCanvas {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .station-map {
+    min-height: 350px;
+  }
+
+  .chart-panel {
+    min-height: 350px;
+  }
+
+  .heatmap-wrapper {
+    max-height: 460px;
+  }
+
+  .snapshot-map {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 700px) {
+  .layout {
+    padding-top: 1.2rem;
+  }
+
+  .panel {
+    border-radius: 12px;
+  }
+
+  .station-map {
+    min-height: 300px;
+  }
+
+  .chart-panel {
+    min-height: 300px;
+  }
+
+  .heatmap-gradient {
+    width: 140px;
+  }
+
+  .heatmap-wrapper {
+    max-height: 360px;
+  }
+
+  .snapshot-map {
+    min-height: 300px;
+  }
+}
