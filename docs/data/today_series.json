@@ -1,25 +1,9 @@
 {
-  "date": "2026-04-24",
-  "generated_at_utc": "2026-04-24T21:28:52Z",
-  "snapshot_count": 17,
+  "date": "2026-04-25",
+  "generated_at_utc": "2026-04-24T22:23:56Z",
+  "snapshot_count": 1,
   "timestamps": [
-    "2026-04-23T22:10:50Z",
-    "2026-04-23T23:09:29Z",
-    "2026-04-24T00:03:59Z",
-    "2026-04-24T03:48:16Z",
-    "2026-04-24T06:00:47Z",
-    "2026-04-24T08:20:56Z",
-    "2026-04-24T10:07:03Z",
-    "2026-04-24T11:33:02Z",
-    "2026-04-24T12:42:11Z",
-    "2026-04-24T14:24:19Z",
-    "2026-04-24T15:49:06Z",
-    "2026-04-24T16:43:08Z",
-    "2026-04-24T17:40:10Z",
-    "2026-04-24T18:31:22Z",
-    "2026-04-24T19:37:37Z",
-    "2026-04-24T20:29:37Z",
-    "2026-04-24T21:28:52Z"
+    "2026-04-24T22:23:56Z"
   ],
   "stations": [
     {
@@ -30,87 +14,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
         }
@@ -124,89 +28,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 16,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 19,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
         }
       ]
     },
@@ -218,89 +42,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 17
         }
       ]
     },
@@ -312,88 +56,8 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 13,
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 12,
           "num_docks_available": 0
         }
       ]
@@ -406,89 +70,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
         }
       ]
     },
@@ -500,88 +84,8 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 12,
           "num_docks_available": 0
         }
       ]
@@ -594,89 +98,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 9,
           "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
         }
       ]
     },
@@ -688,87 +112,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 9,
           "num_docks_available": 1
         }
@@ -782,87 +126,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
         }
@@ -876,89 +140,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 7
+          "num_docks_available": 5
         }
       ]
     },
@@ -970,87 +154,7 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 20
         }
@@ -1064,89 +168,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
         }
       ]
     },
@@ -1158,89 +182,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 3,
           "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 16,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 15,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 22,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 18,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 13
         }
       ]
     },
@@ -1252,89 +196,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 6,
+          "num_docks_available": 4
         }
       ]
     },
@@ -1346,87 +210,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 7,
           "num_docks_available": 3
         }
@@ -1440,89 +224,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 9,
           "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
         }
       ]
     },
@@ -1534,87 +238,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
         }
@@ -1628,89 +252,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 9
         }
       ]
     },
@@ -1722,87 +266,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
         }
@@ -1816,89 +280,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 1,
           "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 16,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 19,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
         }
       ]
     },
@@ -1910,89 +294,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 17,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 16,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 2,
           "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
         }
       ]
     },
@@ -2004,89 +308,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
         }
       ]
     },
@@ -2098,87 +322,7 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 16,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 19,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 15,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 20
         }
@@ -2192,87 +336,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
         }
@@ -2286,89 +350,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
         }
       ]
     },
@@ -2380,89 +364,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
         }
       ]
     },
@@ -2474,87 +378,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 10,
           "num_docks_available": 0
         }
@@ -2568,89 +392,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 3
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 0
         }
       ]
     },
@@ -2662,89 +406,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 9,
           "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
         }
       ]
     },
@@ -2756,87 +420,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 11,
           "num_docks_available": 0
         }
@@ -2850,87 +434,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
         }
@@ -2944,89 +448,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 11,
+          "num_docks_available": 0
         }
       ]
     },
@@ -3038,88 +462,8 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 13,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 12,
           "num_docks_available": 0
         }
       ]
@@ -3132,87 +476,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
         }
@@ -3226,89 +490,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 10,
           "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
         }
       ]
     },
@@ -3320,87 +504,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
         }
@@ -3414,89 +518,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
         }
       ]
     },
@@ -3508,89 +532,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 0
         }
       ]
     },
@@ -3602,89 +546,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
         }
       ]
     },
@@ -3696,87 +560,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
         }
@@ -3790,89 +574,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 11
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 11,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 20
         }
       ]
     },
@@ -3884,87 +588,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
         }
@@ -3978,87 +602,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 7,
           "num_docks_available": 3
         }
@@ -4072,89 +616,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
         }
       ]
     },
@@ -4166,89 +630,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 10,
           "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
         }
       ]
     },
@@ -4260,89 +644,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 10,
           "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
         }
       ]
     },
@@ -4354,89 +658,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 12,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
         }
       ]
     },
@@ -4448,89 +672,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 19
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 15
         }
       ]
     },
@@ -4542,89 +686,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 4
         }
       ]
     },
@@ -4636,89 +700,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 15,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 14,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
         }
       ]
     },
@@ -4730,89 +714,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 1,
-          "num_docks_available": 9
         }
       ]
     },
@@ -4824,87 +728,7 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
         }
@@ -4918,89 +742,9 @@
       "capacity": 20,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 14
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 17
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 0,
-          "num_docks_available": 20
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 10
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 17,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 17,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 13,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 13
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 4,
           "num_docks_available": 16
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 18
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 12
         }
       ]
     },
@@ -5012,89 +756,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 2,
-          "num_docks_available": 8
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 4,
-          "num_docks_available": 6
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
         }
       ]
     },
@@ -5106,89 +770,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 3,
-          "num_docks_available": 7
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
+          "timestamp": "2026-04-24T22:23:56Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 0
         }
       ]
     },
@@ -5200,89 +784,9 @@
       "capacity": 10,
       "series": [
         {
-          "timestamp": "2026-04-23T22:10:50Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-23T23:09:29Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T00:03:59Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T03:48:16Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T06:00:47Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T08:20:56Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T10:07:03Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T11:33:02Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T12:42:11Z",
-          "num_bikes_available": 10,
-          "num_docks_available": 0
-        },
-        {
-          "timestamp": "2026-04-24T14:24:19Z",
+          "timestamp": "2026-04-24T22:23:56Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T15:49:06Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
-        },
-        {
-          "timestamp": "2026-04-24T16:43:08Z",
-          "num_bikes_available": 5,
-          "num_docks_available": 5
-        },
-        {
-          "timestamp": "2026-04-24T17:40:10Z",
-          "num_bikes_available": 8,
-          "num_docks_available": 2
-        },
-        {
-          "timestamp": "2026-04-24T18:31:22Z",
-          "num_bikes_available": 9,
-          "num_docks_available": 1
-        },
-        {
-          "timestamp": "2026-04-24T19:37:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T20:29:37Z",
-          "num_bikes_available": 6,
-          "num_docks_available": 4
-        },
-        {
-          "timestamp": "2026-04-24T21:28:52Z",
-          "num_bikes_available": 7,
-          "num_docks_available": 3
         }
       ]
     }
