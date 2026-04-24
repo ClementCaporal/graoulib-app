@@ -1,5 +1,5 @@
 {
-  "fetched_at_utc": "2026-04-24T03:48:16Z",
+  "fetched_at_utc": "2026-04-24T06:00:47Z",
   "source": {
     "gbfs_root": "https://gbfs.partners.fifteen.eu/gbfs/metz/gbfs.json",
     "station_information": "https://gbfs.partners.fifteen.eu/gbfs/2.2/metz/en/station_information.json",
@@ -12,12 +12,12 @@
       "lat": 49.13641,
       "lon": 6.16575,
       "capacity": 10,
-      "num_bikes_available": 4,
-      "num_docks_available": 6,
+      "num_bikes_available": 3,
+      "num_docks_available": 7,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasf0",
@@ -25,12 +25,12 @@
       "lat": 49.10455,
       "lon": 6.18247,
       "capacity": 20,
-      "num_bikes_available": 0,
-      "num_docks_available": 20,
+      "num_bikes_available": 3,
+      "num_docks_available": 17,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eji06ls2jfth9i0",
@@ -38,12 +38,12 @@
       "lat": 49.11609,
       "lon": 6.1722,
       "capacity": 20,
-      "num_bikes_available": 1,
-      "num_docks_available": 19,
+      "num_bikes_available": 2,
+      "num_docks_available": 18,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f3i06ls2jfthab0",
@@ -51,12 +51,12 @@
       "lat": 49.11561,
       "lon": 6.22537,
       "capacity": 10,
-      "num_bikes_available": 7,
-      "num_docks_available": 3,
+      "num_bikes_available": 8,
+      "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d558o6nqvltc73dpg41g",
@@ -64,12 +64,12 @@
       "lat": 49.12029,
       "lon": 6.18374,
       "capacity": 10,
-      "num_bikes_available": 3,
-      "num_docks_available": 7,
+      "num_bikes_available": 0,
+      "num_docks_available": 10,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3fbi06ls2jfthaig",
@@ -82,7 +82,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasu0",
@@ -90,12 +90,12 @@
       "lat": 49.09271,
       "lon": 6.18213,
       "capacity": 10,
-      "num_bikes_available": 9,
-      "num_docks_available": 1,
+      "num_bikes_available": 10,
+      "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d411aq72bg4c73fujh5g",
@@ -108,7 +108,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4snd1l0ol7c73bg1hng",
@@ -116,12 +116,12 @@
       "lat": 49.08457,
       "lon": 6.24284,
       "capacity": 10,
-      "num_bikes_available": 2,
-      "num_docks_available": 8,
+      "num_bikes_available": 4,
+      "num_docks_available": 6,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eptdtimttjvas30",
@@ -130,11 +130,11 @@
       "lon": 6.18494,
       "capacity": 10,
       "num_bikes_available": 0,
-      "num_docks_available": 10,
+      "num_docks_available": 9,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eri06ls2jfth9lg",
@@ -142,12 +142,12 @@
       "lat": 49.12022,
       "lon": 6.17671,
       "capacity": 20,
-      "num_bikes_available": 0,
-      "num_docks_available": 20,
+      "num_bikes_available": 1,
+      "num_docks_available": 19,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3f6f2p400ss739rb3eg",
@@ -160,7 +160,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d72jq6qmc1uc739ebibg",
@@ -169,11 +169,11 @@
       "lon": 6.17936,
       "capacity": 20,
       "num_bikes_available": 0,
-      "num_docks_available": 19,
+      "num_docks_available": 20,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d44sro9l7i7c73fi7k00",
@@ -181,12 +181,12 @@
       "lat": 49.0904,
       "lon": 6.16637,
       "capacity": 10,
-      "num_bikes_available": 2,
-      "num_docks_available": 8,
+      "num_bikes_available": 0,
+      "num_docks_available": 10,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4k50df160hc73e4ind0",
@@ -199,7 +199,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d559j7u3bdvs73ctp6fg",
@@ -207,12 +207,12 @@
       "lat": 49.097665,
       "lon": 6.189514,
       "capacity": 10,
-      "num_bikes_available": 11,
-      "num_docks_available": 0,
+      "num_bikes_available": 5,
+      "num_docks_available": 5,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d5oc0ra8045s73f3vsgg",
@@ -225,7 +225,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d46qtenp2r2c738iu0k0",
@@ -233,12 +233,12 @@
       "lat": 49.13591,
       "lon": 6.15806,
       "capacity": 10,
-      "num_bikes_available": 12,
+      "num_bikes_available": 11,
       "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3p1s3fr8dus73c2na1g",
@@ -246,12 +246,12 @@
       "lat": 49.100547,
       "lon": 6.224152,
       "capacity": 10,
-      "num_bikes_available": 1,
-      "num_docks_available": 8,
+      "num_bikes_available": 4,
+      "num_docks_available": 6,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eri06ls2jftha10",
@@ -259,12 +259,12 @@
       "lat": 49.1074,
       "lon": 6.17768,
       "capacity": 20,
-      "num_bikes_available": 5,
-      "num_docks_available": 15,
+      "num_bikes_available": 16,
+      "num_docks_available": 4,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eri06ls2jfth9ug",
@@ -272,12 +272,12 @@
       "lat": 49.11036,
       "lon": 6.17659,
       "capacity": 20,
-      "num_bikes_available": 3,
-      "num_docks_available": 17,
+      "num_bikes_available": 17,
+      "num_docks_available": 3,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasp0",
@@ -285,12 +285,12 @@
       "lat": 49.13671,
       "lon": 6.16819,
       "capacity": 10,
-      "num_bikes_available": 7,
-      "num_docks_available": 3,
+      "num_bikes_available": 9,
+      "num_docks_available": 1,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4k3oul7dtts73fjmdbg",
@@ -298,12 +298,12 @@
       "lat": 49.10853,
       "lon": 6.17974,
       "capacity": 20,
-      "num_bikes_available": 2,
-      "num_docks_available": 18,
+      "num_bikes_available": 16,
+      "num_docks_available": 4,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasng",
@@ -311,12 +311,12 @@
       "lat": 49.09346,
       "lon": 6.23046,
       "capacity": 10,
-      "num_bikes_available": 0,
-      "num_docks_available": 10,
+      "num_bikes_available": 1,
+      "num_docks_available": 9,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3f6ghh400ss739rb8sg",
@@ -324,12 +324,12 @@
       "lat": 49.121513,
       "lon": 6.15042,
       "capacity": 10,
-      "num_bikes_available": 5,
-      "num_docks_available": 5,
+      "num_bikes_available": 4,
+      "num_docks_available": 6,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d44siqq3gqus7394fvl0",
@@ -342,7 +342,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasrg",
@@ -350,12 +350,12 @@
       "lat": 49.12993,
       "lon": 6.14556,
       "capacity": 10,
-      "num_bikes_available": 11,
+      "num_bikes_available": 10,
       "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d44tcp1l7i7c73fi8es0",
@@ -368,7 +368,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d410o5n2bg4c73fuj4mg",
@@ -381,7 +381,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d44rub46nkrc738qb4d0",
@@ -389,12 +389,12 @@
       "lat": 49.06019,
       "lon": 6.15404,
       "capacity": 10,
-      "num_bikes_available": 11,
+      "num_bikes_available": 10,
       "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d46rui1l7i7c739kfppg",
@@ -407,7 +407,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d45ie323gqus739er9ng",
@@ -420,7 +420,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d411vvqq22rs73f182o0",
@@ -433,7 +433,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4k460m4mi3s73dctkqg",
@@ -441,12 +441,12 @@
       "lat": 49.10095,
       "lon": 6.15475,
       "capacity": 10,
-      "num_bikes_available": 9,
-      "num_docks_available": 1,
+      "num_bikes_available": 5,
+      "num_docks_available": 5,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvat0g",
@@ -454,12 +454,12 @@
       "lat": 49.10089,
       "lon": 6.19831,
       "capacity": 10,
-      "num_bikes_available": 8,
-      "num_docks_available": 2,
+      "num_bikes_available": 6,
+      "num_docks_available": 4,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d7aeg46dpnfs7384orb0",
@@ -467,12 +467,12 @@
       "lat": 49.07417,
       "lon": 6.22189,
       "capacity": 10,
-      "num_bikes_available": 3,
-      "num_docks_available": 7,
+      "num_bikes_available": 4,
+      "num_docks_available": 6,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d45guvi3gqus739eqcig",
@@ -480,12 +480,12 @@
       "lat": 49.10059,
       "lon": 6.1869,
       "capacity": 10,
-      "num_bikes_available": 2,
-      "num_docks_available": 7,
+      "num_bikes_available": 1,
+      "num_docks_available": 8,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3p2muu09u5s73acdkgg",
@@ -493,12 +493,12 @@
       "lat": 49.11271,
       "lon": 6.20287,
       "capacity": 10,
-      "num_bikes_available": 7,
-      "num_docks_available": 3,
+      "num_bikes_available": 4,
+      "num_docks_available": 6,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d45he210nj8c73ft1l8g",
@@ -511,7 +511,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d45hs610nj8c73ft1sv0",
@@ -524,7 +524,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eptdtimttjvas0g",
@@ -532,12 +532,12 @@
       "lat": 49.11741,
       "lon": 6.18624,
       "capacity": 20,
-      "num_bikes_available": 6,
-      "num_docks_available": 14,
+      "num_bikes_available": 2,
+      "num_docks_available": 18,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4nvdgd7dtts738ijki0",
@@ -545,12 +545,12 @@
       "lat": 49.11461,
       "lon": 6.13652,
       "capacity": 10,
-      "num_bikes_available": 4,
-      "num_docks_available": 6,
+      "num_bikes_available": 3,
+      "num_docks_available": 7,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3f6c09400ss739ranvg",
@@ -558,12 +558,12 @@
       "lat": 49.109885,
       "lon": 6.199487,
       "capacity": 10,
-      "num_bikes_available": 3,
-      "num_docks_available": 7,
+      "num_bikes_available": 2,
+      "num_docks_available": 8,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3p3555tgf7s739oag00",
@@ -576,7 +576,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4129dn2bg4c73fuk640",
@@ -584,12 +584,12 @@
       "lat": 49.10035,
       "lon": 6.17284,
       "capacity": 10,
-      "num_bikes_available": 12,
+      "num_bikes_available": 9,
       "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d3f6g09400ss739rb6s0",
@@ -602,7 +602,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d46tj0k6nkrc73c8ed70",
@@ -610,12 +610,12 @@
       "lat": 49.09818,
       "lon": 6.14724,
       "capacity": 10,
-      "num_bikes_available": 14,
+      "num_bikes_available": 12,
       "num_docks_available": 0,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2mpf5h4mrmajg2jaa40",
@@ -623,12 +623,12 @@
       "lat": 49.124,
       "lon": 6.17243,
       "capacity": 20,
-      "num_bikes_available": 4,
-      "num_docks_available": 16,
+      "num_bikes_available": 3,
+      "num_docks_available": 17,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasjg",
@@ -636,12 +636,12 @@
       "lat": 49.10687,
       "lon": 6.1672,
       "capacity": 10,
-      "num_bikes_available": 6,
-      "num_docks_available": 3,
+      "num_bikes_available": 2,
+      "num_docks_available": 7,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f1tdtimttjvasl0",
@@ -649,12 +649,12 @@
       "lat": 49.10308,
       "lon": 6.17748,
       "capacity": 10,
-      "num_bikes_available": 14,
-      "num_docks_available": 0,
+      "num_bikes_available": 6,
+      "num_docks_available": 4,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3f3i06ls2jftha7g",
@@ -662,12 +662,12 @@
       "lat": 49.10687,
       "lon": 6.22146,
       "capacity": 10,
-      "num_bikes_available": 3,
-      "num_docks_available": 7,
+      "num_bikes_available": 6,
+      "num_docks_available": 4,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eptdtimttjvasbg",
@@ -675,12 +675,12 @@
       "lat": 49.1142,
       "lon": 6.21212,
       "capacity": 10,
-      "num_bikes_available": 6,
-      "num_docks_available": 4,
+      "num_bikes_available": 5,
+      "num_docks_available": 5,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d2iq3eri06ls2jfth9o0",
@@ -693,7 +693,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d4slkremk29c73efd91g",
@@ -701,12 +701,12 @@
       "lat": 49.14853,
       "lon": 6.15521,
       "capacity": 10,
-      "num_bikes_available": 3,
-      "num_docks_available": 7,
+      "num_bikes_available": 2,
+      "num_docks_available": 8,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d46r5hp0nj8c73c1c27g",
@@ -714,12 +714,12 @@
       "lat": 49.1514,
       "lon": 6.1501,
       "capacity": 10,
-      "num_bikes_available": 9,
-      "num_docks_available": 1,
+      "num_bikes_available": 7,
+      "num_docks_available": 3,
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     },
     {
       "station_id": "st_d46rfs9264hs738np1s0",
@@ -732,7 +732,7 @@
       "is_installed": true,
       "is_renting": true,
       "is_returning": true,
-      "last_reported": 1777002455
+      "last_reported": 1777010422
     }
   ]
 }
