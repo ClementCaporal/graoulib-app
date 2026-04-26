@@ -1,7 +1,7 @@
 {
   "date": "2026-04-26",
-  "generated_at_utc": "2026-04-26T20:20:49Z",
-  "snapshot_count": 19,
+  "generated_at_utc": "2026-04-26T21:05:57Z",
+  "snapshot_count": 20,
   "timestamps": [
     "2026-04-25T22:42:30Z",
     "2026-04-25T23:24:40Z",
@@ -21,7 +21,8 @@
     "2026-04-26T17:44:06Z",
     "2026-04-26T18:31:13Z",
     "2026-04-26T19:33:44Z",
-    "2026-04-26T20:20:49Z"
+    "2026-04-26T20:20:49Z",
+    "2026-04-26T21:05:57Z"
   ],
   "stations": [
     {
@@ -123,6 +124,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
         }
@@ -229,6 +235,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 2,
           "num_docks_available": 17
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 18
         }
       ]
     },
@@ -333,6 +344,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 15
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 15
         }
       ]
     },
@@ -435,6 +451,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 4,
+          "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 4,
           "num_docks_available": 4
         }
@@ -541,6 +562,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 10
         }
       ]
     },
@@ -643,6 +669,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 8,
+          "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 8,
           "num_docks_available": 2
         }
@@ -749,6 +780,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 2,
+          "num_docks_available": 7
         }
       ]
     },
@@ -853,6 +889,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 5,
+          "num_docks_available": 5
         }
       ]
     },
@@ -957,6 +998,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 2,
+          "num_docks_available": 8
         }
       ]
     },
@@ -1061,6 +1107,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 10
         }
       ]
     },
@@ -1165,6 +1216,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 14
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 13
         }
       ]
     },
@@ -1269,6 +1325,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -1371,6 +1432,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 14
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 0,
           "num_docks_available": 14
         }
@@ -1477,6 +1543,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 6,
           "num_docks_available": 3
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -1581,6 +1652,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
         }
       ]
     },
@@ -1685,6 +1761,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -1787,6 +1868,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 8,
+          "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 8,
           "num_docks_available": 2
         }
@@ -1893,6 +1979,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 7,
           "num_docks_available": 3
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -1997,6 +2088,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 6
         }
       ]
     },
@@ -2100,6 +2196,11 @@
         {
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
+          "num_docks_available": 19
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
           "num_docks_available": 19
         }
       ]
@@ -2205,6 +2306,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 19
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 20
         }
       ]
     },
@@ -2307,6 +2413,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 6,
+          "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
         }
@@ -2413,6 +2524,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 0,
           "num_docks_available": 20
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 20
         }
       ]
     },
@@ -2517,6 +2633,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 10,
           "num_docks_available": 0
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 1
         }
       ]
     },
@@ -2619,6 +2740,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 6,
+          "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 6,
           "num_docks_available": 4
         }
@@ -2725,6 +2851,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
         }
       ]
     },
@@ -2829,6 +2960,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 7
         }
       ]
     },
@@ -2933,6 +3069,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 4,
           "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 4,
+          "num_docks_available": 3
         }
       ]
     },
@@ -3035,6 +3176,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 2,
+          "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 2,
           "num_docks_available": 7
         }
@@ -3141,6 +3287,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 7,
           "num_docks_available": 4
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 4
         }
       ]
     },
@@ -3245,6 +3396,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 9,
           "num_docks_available": 1
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 6,
+          "num_docks_available": 4
         }
       ]
     },
@@ -3349,6 +3505,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 9,
           "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 1
         }
       ]
     },
@@ -3453,6 +3614,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 8,
           "num_docks_available": 0
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 1
         }
       ]
     },
@@ -3557,6 +3723,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 8,
           "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -3661,6 +3832,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 7,
+          "num_docks_available": 3
         }
       ]
     },
@@ -3763,6 +3939,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
         }
@@ -3869,6 +4050,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 2,
+          "num_docks_available": 8
         }
       ]
     },
@@ -3971,6 +4157,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 2,
+          "num_docks_available": 8
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 2,
           "num_docks_available": 8
         }
@@ -4077,6 +4268,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
         }
       ]
     },
@@ -4181,6 +4377,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 3,
           "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
         }
       ]
     },
@@ -4284,6 +4485,11 @@
         {
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
+          "num_docks_available": 19
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
           "num_docks_available": 19
         }
       ]
@@ -4389,6 +4595,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 4,
           "num_docks_available": 8
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 5,
+          "num_docks_available": 7
         }
       ]
     },
@@ -4491,6 +4702,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 0,
           "num_docks_available": 9
         }
@@ -4597,6 +4813,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 10
         }
       ]
     },
@@ -4700,6 +4921,11 @@
         {
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 12,
+          "num_docks_available": 0
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 11,
           "num_docks_available": 0
         }
       ]
@@ -4805,6 +5031,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 5,
           "num_docks_available": 5
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 6,
+          "num_docks_available": 4
         }
       ]
     },
@@ -4909,6 +5140,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 2,
           "num_docks_available": 7
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 6
         }
       ]
     },
@@ -5013,6 +5249,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 1,
           "num_docks_available": 19
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 0,
+          "num_docks_available": 20
         }
       ]
     },
@@ -5117,6 +5358,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 0,
           "num_docks_available": 10
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 4,
+          "num_docks_available": 6
         }
       ]
     },
@@ -5221,6 +5467,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 9,
           "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 8,
+          "num_docks_available": 3
         }
       ]
     },
@@ -5325,6 +5576,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 4,
           "num_docks_available": 6
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 10,
+          "num_docks_available": 0
         }
       ]
     },
@@ -5427,6 +5683,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 9
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 1,
           "num_docks_available": 9
         }
@@ -5533,6 +5794,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 0,
           "num_docks_available": 20
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 1,
+          "num_docks_available": 19
         }
       ]
     },
@@ -5635,6 +5901,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 8,
+          "num_docks_available": 2
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 8,
           "num_docks_available": 2
         }
@@ -5741,6 +6012,11 @@
           "timestamp": "2026-04-26T20:20:49Z",
           "num_bikes_available": 11,
           "num_docks_available": 0
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
+          "num_bikes_available": 9,
+          "num_docks_available": 0
         }
       ]
     },
@@ -5843,6 +6119,11 @@
         },
         {
           "timestamp": "2026-04-26T20:20:49Z",
+          "num_bikes_available": 3,
+          "num_docks_available": 6
+        },
+        {
+          "timestamp": "2026-04-26T21:05:57Z",
           "num_bikes_available": 3,
           "num_docks_available": 6
         }
