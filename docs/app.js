@@ -9,8 +9,11 @@ const snapshotMapContainer = document.getElementById("snapshotMap");
 const snapshotSlider = document.getElementById("snapshotSlider");
 const snapshotTimeLabelEl = document.getElementById("snapshotTimeLabel");
 const snapshotStatusEl = document.getElementById("snapshotStatus");
+const totalBikesCanvas = document.getElementById("totalBikesChart");
+const totalBikesStatusEl = document.getElementById("totalBikesStatus");
 
 let chart;
+let totalBikesChart;
 let dailyData;
 let map;
 let snapshotMap;
@@ -358,6 +361,111 @@ function clearHeatmapHover() {
   }
 }
 
+function buildTotalBikesChart() {
+  const timestamps = dailyData.timestamps || [];
+  if (!totalBikesCanvas || timestamps.length === 0) {
+    return;
+  }
+
+  const totalBikes = timestamps.map((timestamp) => {
+    let total = 0;
+    for (const station of dailyData.stations || []) {
+      const item = station.series.find((s) => s.timestamp === timestamp);
+      if (item && Number.isFinite(item.num_bikes_available)) {
+        total += item.num_bikes_available;
+      }
+    }
+    return total;
+  });
+
+  if (totalBikesChart) {
+    totalBikesChart.destroy();
+  }
+
+  const values = totalBikes.filter((v) => Number.isFinite(v));
+  const maxValue = values.length > 0 ? Math.max(...values) : 1;
+  const minValue = values.length > 0 ? Math.min(...values) : 0;
+  const valueRange = Math.max(1, maxValue - minValue);
+  const margin = Math.ceil(valueRange * 0.2);
+
+  const dataset = {
+    label: "Total Bikes Available",
+    data: timestamps.map((timestamp, index) => ({
+      x: Date.parse(timestamp),
+      y: totalBikes[index],
+    })),
+    borderColor: "#0c7f6f",
+    backgroundColor: "#0c7f6f30",
+    borderWidth: 3,
+    fill: true,
+    tension: 0.25,
+    pointRadius: 1.5,
+    pointHoverRadius: 4,
+    spanGaps: true,
+  };
+
+  totalBikesChart = new Chart(totalBikesCanvas, {
+    type: "line",
+    data: {
+      datasets: [dataset],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: {
+        duration: 800,
+      },
+      scales: {
+        x: {
+          type: "linear",
+          ticks: {
+            maxTicksLimit: 12,
+            callback: (value) => {
+              const timestamp = Number(value);
+              return Number.isFinite(timestamp) ? formatTimestampLabel(new Date(timestamp).toISOString()) : "";
+            },
+          },
+          title: {
+            display: true,
+            text: "Time",
+          },
+        },
+        y: {
+          beginAtZero: true,
+          suggestedMin: Math.max(0, minValue - margin),
+          suggestedMax: maxValue + margin,
+          ticks: {
+            precision: 0,
+          },
+          title: {
+            display: true,
+            text: "Bikes Available",
+          },
+        },
+      },
+      plugins: {
+        legend: {
+          display: true,
+          position: "top",
+        },
+        tooltip: {
+          callbacks: {
+            title: (items) => {
+              const item = items[0];
+              const timestamp = item?.parsed?.x;
+              return Number.isFinite(timestamp) ? formatTimestampLabel(new Date(timestamp).toISOString()) : "";
+            },
+            label: (item) => {
+              const bikes = Number.isFinite(item.parsed.y) ? item.parsed.y : "n/a";
+              return `Total: ${bikes} bikes`;
+            },
+          },
+        },
+      },
+    },
+  });
+}
+
 function buildChart(selectedStations) {
   const timestamps = dailyData.timestamps || [];
 
@@ -598,6 +706,7 @@ async function loadData() {
   toggleStationSelection(dailyData.stations[0].station_id, true);
   buildHeatmap();
   initSnapshotMap();
+  buildTotalBikesChart();
 
   heatmapCanvas.addEventListener("mousemove", handleHeatmapHover);
   heatmapCanvas.addEventListener("mouseleave", clearHeatmapHover);

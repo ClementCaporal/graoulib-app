@@ -118,6 +118,18 @@ body {
   max-height: 520px;
 }
 
+.total-bikes-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  max-height: 520px;
+}
+
+#totalBikesChart {
+  width: 100%;
+  height: 150px;
+}
+
 .heatmap-panel {
   margin-top: 1.2rem;
 }
