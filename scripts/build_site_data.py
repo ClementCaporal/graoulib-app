@@ -14,13 +14,13 @@ from graoulib.pipeline import build_daily_series
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Build docs/data/today_series.json from history")
+    parser = argparse.ArgumentParser(description="Build docs/data/all_series.json from history")
     parser.add_argument("--date", help="Date to aggregate, format YYYY-MM-DD", default=None)
     args = parser.parse_args()
 
     payload = build_daily_series(date_str=args.date)
     print(
-        "Built today_series.json "
+        "Built all_series.json "
         f"(date={payload['date']}, snapshots={payload['snapshot_count']}, stations={len(payload['stations'])})"
     )
 

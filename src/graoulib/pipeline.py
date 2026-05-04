@@ -16,26 +16,32 @@ def collect_and_store_snapshot() -> tuple[dict[str, Any], Path]:
     return snapshot, history_file
 
 
-def build_daily_series(date_str: str | None = None) -> dict[str, Any]:
+def _history_files(date_str: str | None) -> list[Path]:
     if date_str:
-        target_day = date_str
-    else:
-        target_day = datetime.now(LOCAL_TIMEZONE).date().isoformat()
+        return [HISTORY_DIR / f"{date_str}.ndjson"]
+    return sorted(HISTORY_DIR.glob("*.ndjson"))
 
-    history_file = HISTORY_DIR / f"{target_day}.ndjson"
+
+def _aggregate_history(history_files: list[Path]) -> dict[str, Any]:
     stations_by_id: dict[str, dict[str, Any]] = {}
     timestamps: list[str] = []
 
-    if history_file.exists():
+    for history_file in history_files:
+        if not history_file.exists():
+            continue
+
         with history_file.open("r", encoding="utf-8") as input_file:
             for line in input_file:
                 line = line.strip()
                 if not line:
                     continue
+
                 snapshot = json.loads(line)
                 timestamp = snapshot.get("fetched_at_utc")
-                if isinstance(timestamp, str):
-                    timestamps.append(timestamp)
+                if not isinstance(timestamp, str):
+                    continue
+
+                timestamps.append(timestamp)
                 for station in snapshot.get("stations", []):
                     station_id = str(station.get("station_id", "unknown"))
                     current = stations_by_id.setdefault(
@@ -57,16 +63,41 @@ def build_daily_series(date_str: str | None = None) -> dict[str, Any]:
                         }
                     )
 
+    for station in stations_by_id.values():
+        station["series"].sort(key=lambda item: str(item.get("timestamp", "")))
+
+    sorted_timestamps = sorted(set(timestamps))
+    return {
+        "snapshot_count": len(timestamps),
+        "timestamps": sorted_timestamps,
+        "stations": sorted(stations_by_id.values(), key=lambda station: str(station.get("name", ""))),
+        "range_start": sorted_timestamps[0] if sorted_timestamps else None,
+        "range_end": sorted_timestamps[-1] if sorted_timestamps else None,
+    }
+
+
+def build_daily_series(date_str: str | None = None) -> dict[str, Any]:
+    if date_str:
+        target_day = date_str
+        output_filename = "today_series.json"
+    else:
+        target_day = "all history"
+        output_filename = "all_series.json"
+
+    aggregated = _aggregate_history(_history_files(date_str))
+
     payload = {
         "date": target_day,
         "generated_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "snapshot_count": len(timestamps),
-        "timestamps": sorted(set(timestamps)),
-        "stations": sorted(stations_by_id.values(), key=lambda station: str(station.get("name", ""))),
+        "snapshot_count": aggregated["snapshot_count"],
+        "timestamps": aggregated["timestamps"],
+        "stations": aggregated["stations"],
+        "range_start": aggregated["range_start"],
+        "range_end": aggregated["range_end"],
     }
 
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
-    (DOCS_DATA_DIR / "today_series.json").write_text(
+    (DOCS_DATA_DIR / output_filename).write_text(
         json.dumps(payload, ensure_ascii=True, indent=2) + "\n",
         encoding="utf-8",
     )

@@ -8,7 +8,7 @@ https://gbfs.partners.fifteen.eu/gbfs/metz/gbfs.json
 - Fetches station information + station status from GBFS.
 - Stores historical snapshots every 10 minutes in `data/history/YYYY-MM-DD.ndjson`.
 - Updates `data/latest_snapshot.json`.
-- Builds `docs/data/today_series.json` for a static chart page.
+- Builds `docs/data/all_series.json` for a static chart page.
 - Includes a GitHub Actions workflow scheduled every 10 minutes.
 - Serves a static chart UI from `docs/` (compatible with GitHub Pages).
 
@@ -43,6 +43,12 @@ uv run python -m http.server --directory docs 8000
 ```
 
 Then open `http://localhost:8000`.
+
+## One-liner to build and serve
+
+```bash
+uv run python scripts/build_site_data.py && uv run python -m http.server --directory docs 8000
+```
 
 ## Daily operation with uv
 

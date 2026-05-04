@@ -39,6 +39,16 @@ function toLocalTime(isoTimestamp) {
   return date.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
 
+function formatTimestampLabel(isoTimestamp) {
+  const date = new Date(isoTimestamp);
+  return date.toLocaleString([], {
+    month: "short",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
 function colorForStationId(stationId) {
   let hash = 0;
   for (let index = 0; index < stationId.length; index += 1) {
@@ -164,7 +174,7 @@ function buildHeatmap() {
   const labelStep = Math.max(1, Math.ceil(timestamps.length / maxLabels));
   for (let col = 0; col < timestamps.length; col += labelStep) {
     const x = leftPadding + col * cellWidth + cellWidth / 2;
-    context.fillText(toLocalTime(timestamps[col]), x, logicalHeight - 20);
+    context.fillText(formatTimestampLabel(timestamps[col]), x, logicalHeight - 20);
   }
 
   context.strokeStyle = "#cbbca8";
@@ -221,7 +231,7 @@ function updateSnapshotMapAtIndex(index) {
 
   const nearestIndex = getNearestSnapshotIndex(index);
   const timestamp = timestamps[nearestIndex];
-  const timeLabel = toLocalTime(timestamp);
+  const timeLabel = formatTimestampLabel(timestamp);
   snapshotTimeLabelEl.textContent = `Snapshot time: ${timeLabel} (nearest data point)`;
 
   let withDataCount = 0;
@@ -350,7 +360,6 @@ function clearHeatmapHover() {
 
 function buildChart(selectedStations) {
   const timestamps = dailyData.timestamps || [];
-  const labels = timestamps.map((item) => toLocalTime(item));
 
   const datasets = selectedStations.map((station) => {
     const bikesByTimestamp = new Map(
@@ -360,7 +369,10 @@ function buildChart(selectedStations) {
 
     return {
       label: station.name,
-      data: timestamps.map((timestamp) => bikesByTimestamp.get(timestamp) ?? null),
+      data: timestamps.map((timestamp) => ({
+        x: Date.parse(timestamp),
+        y: bikesByTimestamp.get(timestamp) ?? null,
+      })),
       borderColor: color,
       backgroundColor: `${color}30`,
       borderWidth: 3,
@@ -385,7 +397,6 @@ function buildChart(selectedStations) {
   chart = new Chart(chartCanvas, {
     type: "line",
     data: {
-      labels,
       datasets,
     },
     options: {
@@ -396,8 +407,17 @@ function buildChart(selectedStations) {
       },
       scales: {
         x: {
+          type: "linear",
           ticks: {
             maxTicksLimit: 12,
+            callback: (value) => {
+              const timestamp = Number(value);
+              return Number.isFinite(timestamp) ? formatTimestampLabel(new Date(timestamp).toISOString()) : "";
+            },
+          },
+          title: {
+            display: true,
+            text: "Time",
           },
         },
         y: {
@@ -413,6 +433,21 @@ function buildChart(selectedStations) {
         legend: {
           display: true,
           position: "top",
+        },
+        tooltip: {
+          callbacks: {
+            title: (items) => {
+              const item = items[0];
+              const timestamp = item?.parsed?.x;
+              return Number.isFinite(timestamp)
+                ? formatTimestampLabel(new Date(timestamp).toISOString())
+                : "";
+            },
+            label: (item) => {
+              const bikes = Number.isFinite(item.parsed.y) ? item.parsed.y : "n/a";
+              return `${item.dataset.label}: ${bikes} bikes`;
+            },
+          },
         },
       },
     },
@@ -535,7 +570,10 @@ function initMap() {
 }
 
 async function loadData() {
-  const response = await fetch("data/today_series.json", { cache: "no-store" });
+  let response = await fetch("data/all_series.json", { cache: "no-store" });
+  if (!response.ok) {
+    response = await fetch("data/today_series.json", { cache: "no-store" });
+  }
   if (!response.ok) {
     throw new Error("Could not load daily data file");
   }
@@ -549,7 +587,11 @@ async function loadData() {
     return;
   }
 
-  metaEl.textContent = `${dailyData.date} - ${dailyData.snapshot_count} snapshots - ${stationCount} stations`;
+  const rangeText =
+    dailyData.range_start && dailyData.range_end
+      ? `${formatTimestampLabel(dailyData.range_start)} → ${formatTimestampLabel(dailyData.range_end)}`
+      : dailyData.date;
+  metaEl.textContent = `${rangeText} - ${dailyData.snapshot_count} snapshots - ${stationCount} stations`;
 
   computeSeriesLookup();
   initMap();
