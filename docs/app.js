@@ -5,6 +5,7 @@ const mapContainer = document.getElementById("stationMap");
 const stationTitleEl = document.getElementById("stationTitle");
 const heatmapCanvas = document.getElementById("heatmapCanvas");
 const heatmapStatusEl = document.getElementById("heatmapStatus");
+const heatmapScaleSelect = document.getElementById("heatmapScale");
 const snapshotMapContainer = document.getElementById("snapshotMap");
 const snapshotSlider = document.getElementById("snapshotSlider");
 const snapshotTimeLabelEl = document.getElementById("snapshotTimeLabel");
@@ -68,6 +69,22 @@ function interpolateColor(start, end, t) {
   return `rgb(${red}, ${green}, ${blue})`;
 }
 
+function getHeatmapScale() {
+  return heatmapScaleSelect?.value === "log" ? "log" : "linear";
+}
+
+function transformHeatmapValue(value, scale) {
+  if (!Number.isFinite(value)) {
+    return value;
+  }
+
+  if (scale === "log") {
+    return Math.log10(value + 1);
+  }
+
+  return value;
+}
+
 function viridisColor(value, min, max) {
   if (!Number.isFinite(value)) {
     return "#e7e0d2";
@@ -100,6 +117,7 @@ function viridisColor(value, min, max) {
 function buildHeatmap() {
   const timestamps = dailyData.timestamps || [];
   const stations = dailyData.stations || [];
+  const scale = getHeatmapScale();
 
   if (!heatmapCanvas || timestamps.length === 0 || stations.length === 0) {
     return;
@@ -109,8 +127,9 @@ function buildHeatmap() {
     .flatMap((station) => station.series.map((item) => item.num_bikes_available))
     .filter((item) => Number.isFinite(item));
 
-  const minValue = bikesValues.length > 0 ? Math.min(...bikesValues) : 0;
-  const maxValue = bikesValues.length > 0 ? Math.max(...bikesValues) : 1;
+  const scaledValues = bikesValues.map((value) => transformHeatmapValue(value, scale));
+  const minValue = scaledValues.length > 0 ? Math.min(...scaledValues) : 0;
+  const maxValue = scaledValues.length > 0 ? Math.max(...scaledValues) : 1;
 
   const cellWidth = 12;
   const cellHeight = 14;
@@ -151,7 +170,8 @@ function buildHeatmap() {
     for (let col = 0; col < timestamps.length; col += 1) {
       const timestamp = timestamps[col];
       const bikes = bikesByTimestamp?.get(timestamp);
-      context.fillStyle = viridisColor(bikes, minValue, maxValue);
+      const scaledBikes = transformHeatmapValue(bikes, scale);
+      context.fillStyle = viridisColor(scaledBikes, minValue, maxValue);
       context.fillRect(
         leftPadding + col * cellWidth,
         topPadding + row * cellHeight,
@@ -198,6 +218,10 @@ function buildHeatmap() {
     stations,
     bikesByStation,
   };
+
+  if (heatmapStatusEl) {
+    heatmapStatusEl.textContent = `Hover a cell to inspect a station and snapshot value. Scale: ${scale}.`;
+  }
 }
 
 function computeSeriesLookup() {
@@ -710,6 +734,12 @@ async function loadData() {
 
   heatmapCanvas.addEventListener("mousemove", handleHeatmapHover);
   heatmapCanvas.addEventListener("mouseleave", clearHeatmapHover);
+
+  if (heatmapScaleSelect) {
+    heatmapScaleSelect.addEventListener("change", () => {
+      buildHeatmap();
+    });
+  }
 }
 
 loadData().catch((error) => {

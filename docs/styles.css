@@ -134,6 +134,28 @@ body {
   margin-top: 1.2rem;
 }
 
+.heatmap-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.65rem 0 0.7rem;
+}
+
+.heatmap-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.heatmap-select {
+  min-width: 160px;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fffaf3;
+  color: var(--text);
+}
+
 .snapshot-panel {
   margin-top: 1.2rem;
 }

@@ -43,6 +43,13 @@
       <section class="panel heatmap-panel">
         <h2 class="station-title">Station Snapshot Heatmap</h2>
         <p class="status">Y axis: stations, X axis: snapshot time, color: number of bikes available.</p>
+        <div class="heatmap-controls">
+          <label for="heatmapScale" class="heatmap-label">Scale</label>
+          <select id="heatmapScale" class="heatmap-select">
+            <option value="linear" selected>Linear</option>
+            <option value="log">Logarithmic</option>
+          </select>
+        </div>
         <div class="heatmap-legend">
           <span>Low</span>
           <div class="heatmap-gradient" aria-hidden="true"></div>
